@@ -1,16 +1,11 @@
-nav {
-    background: #0f6f6f
-}
-
-.nav-link {
+a {
     font-size: 1.2em;
     color: #ffffff !important;
     font-weight: 500
 }
 
-.active .nav-link {
-    border-bottom: 1px solid #00ffc8;
-    color: #000000 !important
+a:hover, a:active {
+    color: #ffde59 !important;
 }
 
 .masthead {
