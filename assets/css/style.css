@@ -1,0 +1,79 @@
+nav {
+    background: #0f6f6f
+}
+
+.nav-link {
+    font-size: 1.2em;
+    color: #ffffff !important;
+    font-weight: 500
+}
+
+.active .nav-link {
+    border-bottom: 1px solid #00ffc8;
+    color: #000000 !important
+}
+
+.masthead {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #ffde59;
+}
+.masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+.masthead .masthead-subheading {
+    font-size: 2.25rem;
+}
+.masthead .masthead-avatar {
+    width: 15rem;
+}
+
+@media (min-width: 992px) {
+    .masthead .masthead-heading {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+        font-size: 2.5rem;
+    }
+}
+
+.page-section {
+  padding-top: 3rem;
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  color: #ffde59;
+}
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #ffde59;
+  }
+}
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgb(255, 222, 89);
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
