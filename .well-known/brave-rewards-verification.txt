@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gerardonapoli.it
+Token: 8805d4872866ab5a2ed97453e564dcee020eeec7fecce5e592396b94e2fc24a2
