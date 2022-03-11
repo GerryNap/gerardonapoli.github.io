@@ -1,3 +1,13 @@
+@font-face {
+  font-family: LibreBodoni;
+  src: url(./font/LibreBodoni-Regular.ttf);
+}
+
+body{
+  font-family: LibreBodoni;
+  letter-spacing: 2px;
+}
+
 a {
     font-size: 1.2em;
     color: #ffffff !important;
