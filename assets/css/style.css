@@ -14,8 +14,12 @@ a {
     font-weight: 500
 }
 
-a:hover, a:active {
-    color: #ffde59 !important;
+svg{
+  align-items: center;
+}
+
+svg:hover {
+  color: #ffde59 !important;
 }
 
 .masthead {
